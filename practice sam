@@ -1,0 +1,31 @@
+# def functn_name(fn1,fn2):
+
+#     multiplied = fn1 * fn2 
+#     return multiplied
+
+# functn_name(5,10)
+
+# def combined_strings(word1 = "helllo", word2= "world", sep =""):
+#     return word1 + sep + word2
+# combined_strings()
+
+# combined_strings ("data","daft",sep = "")
+# print combined_strings
+
+# def happy_bday(name,age):
+#     print(f"Happy birthday to {name}!")
+#     print(f"You are {age} years old!")
+#     print("Happy birthday to you!")
+#     print()
+
+# happy_bday("sam",20)
+# happy_bday("bukola",21)
+# happy_bday("tolu",30)
+
+def display_invoice(username,amount,due_date):
+    print(f"hello {username}")
+    print(f"your bill of ${amount:.2f} is due on {due_date}")
+
+display_invoice("sam",100,"10/11")    
+
+
